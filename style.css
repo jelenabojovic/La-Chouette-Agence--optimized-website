@@ -1039,4 +1039,16 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .social {
+        display: flex;
+        gap: 50px;
+    }
+}
+@media (max-width: 600px){
+    .responsive {
+        width: 100%;
+    }
+}
+.social {
+    margin-top: 10px;
 }
